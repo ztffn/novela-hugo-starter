@@ -6,6 +6,13 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: directory
+  path: hero
+  label: Hero
+  create: all
+  match: "**/*"
+  templates:
+  - home-hero
 - type: document
   path: content/_index.md
   label: Home
